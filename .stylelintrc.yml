@@ -1,4 +1,7 @@
-extends: stylelint-config-standard
+# "stylelint-config-standard-scss" allows double slash comments
+# "postcss-scss" could be used as a customSyntax instead
+# For more: https://github.com/stylelint/stylelint/issues/5946
+extends: stylelint-config-standard-scss
 plugins:
   - stylelint-order
 rules:
